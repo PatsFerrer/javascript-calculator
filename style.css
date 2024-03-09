@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +37,14 @@ section {
 .display {
     border: none;
     border-radius: 5px;
+    border: 1px solid black;
 
     grid-column: 1/5;
     background-color: #ffffff;
+    text-align: end;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn {
@@ -46,15 +53,16 @@ section {
     border-radius: 5px;
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.254);
+    box-shadow: 0 2px #cac5b6;
 }
 
 .btn:active {
     transform: translateY(0.1vh);
-    box-shadow: 0 2px #cac5b6;
+    box-shadow: 0 1px #cac5b6;
 }
 
 .btn-operations {
-    background-color: rgba(114, 52, 173, 0.719);
+    background-color: rgba(135, 73, 193, 0.631);
     color: #fff;
 }
 

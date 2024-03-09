@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Calculator</title>
 </head>
 
@@ -15,9 +16,9 @@
             <input class="display" type="text" name="display" id="display" disabled>
 
             <button class="btn " value="C" onclick="clearAll()">C</button>
-            <button class="btn" value="CE" onclick="clearLast()">CE</button>
-            <button class="btn btn-operations" value="/" onclick="showDisplay('÷')">÷</button>
-            <button class="btn btn-operations" value="*" onclick="showDisplay('×')">×</button>
+            <button class="btn " value="CE" onclick="clearLast()"><i class="bi bi-backspace"></i></button>
+            <button class="btn btn-operations" value="/" onclick="showDisplay('/')">÷</button>
+            <button class="btn btn-operations" value="*" onclick="showDisplay('*')">×</button>
 
             <button class="btn" value="7" onclick="showDisplay(7)">7</button>
             <button class="btn" value="8" onclick="showDisplay(8)">8</button>
